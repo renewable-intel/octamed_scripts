@@ -29,7 +29,7 @@ _init:
     SA_GETRANGEEND                                          /* get sample end */
     end_=RESULT
                                                                                       
-    ulen=len-start                                          /* user start point */
+    ulen=len-start                                          /* user start / end */
 
     pct=3                                                   /* xfade % default (3) */    
                                                             
