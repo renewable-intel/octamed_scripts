@@ -29,9 +29,9 @@ _init:
     start=RESULT
                                                             
     SA_GETRANGEEND                                          /* get sample end */
-    end=RESULT
+    end_=RESULT
                                                                                       
-    ulen=len-start                                         /* user start point */
+    ulen=len-start                                          /* user start point */
 
     pct=3                                                   /* xfade % default (3) */    
                                                             
