@@ -46,14 +46,14 @@ _routine:
     d_len=TRUNC(((len*pct)/100))                            /* convert % to default range */           
     dstart=(len-d_len)                                      /* calculate start point from end */
                                 
-    SA_RANGE dstart len                                     /* start of routine */  
-    SA_CHANGEVOL 100 0
-    SA_CUTRANGE    
-    SA_RANGE 0 d_len
-    SA_CHANGEVOL 0 100
-    SA_MIX 100 100
-    SA_SETLOOPSTATE ON
-    SA_RANGE 0 0
+    SA_RANGE dstart len                                     /* select buffer range */  
+    SA_CHANGEVOL 100 0                                      /* fadeout (100 - 0) */
+    SA_CUTRANGE                                             /* cut range */
+    SA_RANGE 0 d_len                                        /* select range at the beginning */      
+    SA_CHANGEVOL 0 100                                      /* fadein (0 to 100)
+    SA_MIX 100 100                                          /* mix copybuffer with sample */
+    SA_SETLOOPSTATE ON                                      /* turn on looping */
+    SA_RANGE 0 0                                            /* reset range */
     
     WI_SHOWSTRING ' | XFADE v'ver' | Crossfade: 'pct'% | Status: DONE! |'
     
