@@ -1,6 +1,6 @@
 /*
   $VER: XFADE v0.1c
-  DATE: 22-FEB-2022
+  DATE: 20-FEB-2022
   TYPE: AREXX / Octamed SoundStudio v1.03c
   PLAT: AMIGA
   SITE: github.com/renewable-intel   
