@@ -50,7 +50,7 @@ _routine:
     SA_CHANGEVOL 100 0                                      /* fadeout (100 - 0) */
     SA_CUTRANGE                                             /* cut range */
     SA_RANGE 0 d_len                                        /* select range at the beginning */      
-    SA_CHANGEVOL 0 100                                      /* fadein (0 to 100)
+    SA_CHANGEVOL 0 100                                      /* fadein (0 to 100) */
     SA_MIX 100 100                                          /* mix copybuffer with sample */
     SA_SETLOOPSTATE ON                                      /* turn on looping */
     SA_RANGE 0 0                                            /* reset range */
