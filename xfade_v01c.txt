@@ -16,7 +16,7 @@ Usage:
   1)  Move your pointer to an area of the sample you want to start the
       crossfade process and click the mouse.      
   
-  2)  Launch this script.    
+  2)  Launch the script.    
   
 Notes:
   
