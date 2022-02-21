@@ -20,7 +20,7 @@ Usage:
   
 Notes:
   
-  1)  If no starting point detected, this script will automatically
+  1)  If no start point detected, this script will automatically
       default the crossfade amount to 3%.
         
   2)  Percentages range from 50 down to 1% (from the halfway
