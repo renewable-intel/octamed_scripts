@@ -13,12 +13,10 @@ options results
 ver='0.1c'                                                     
                                                             
 IN_GETTYPE                                                  /* check instrument status */
-        if RESULT = SAMPLE then SIGNAL _init
-            else if RESULT = EMPTY then WI_SHOWSTRING ' XFADE v'ver' | status: ERR! (sample buffer empty)'
-                else WI_SHOWSTRING ' XFADE v'ver' | status: ERR! (sample instruments only)'
+    if RESULT = SAMPLE then SIGNAL _init
+      else if RESULT = EMPTY then WI_SHOWSTRING ' XFADE v'ver' | status: ERR! (sample buffer empty)'
+        else WI_SHOWSTRING ' XFADE v'ver' | status: ERR! (sample instruments only)'
     exit
-end
-
                                                             
 _init:
                                                                     
