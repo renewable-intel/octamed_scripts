@@ -1,4 +1,4 @@
-      XFADE PRO v0.1c | renewable_intel | (c)opyleft 2022
+      XFADE v0.1c | renewable_intel | (c)opyleft 2022
       github.com/renewable-intel
 
       Crossfade routine for perfect clickless loops.
