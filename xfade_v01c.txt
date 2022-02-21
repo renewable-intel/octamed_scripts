@@ -1,0 +1,44 @@
+      XFADE PRO v0.1c | renewable_intel | (c)opyleft 2022
+      github.com/renewable-intel
+
+      Crossfade routine for perfect clickless loops.
+      Supports both mono and stereo samples.
+      
+      Tested on: Octamed SoundStudio 1 to 1.03c
+      Not tested with Octamed v6.
+      
+      Donation:
+      
+      {{re_i}}
+      
+Usage: 
+  
+  1)  Move your pointer to an area of the sample you want to start the
+      crossfade process and click the mouse.      
+  
+  2)  Launch this script.    
+  
+Notes:
+  
+  1)  If no starting point detected, this script will automatically
+      default the crossfade amount to 3%.
+        
+  2)  Percentages range from 50 down to 1% (from the halfway
+      point of the buffer towards the end). Selecting a point anywhere
+      before the halfway point will register as 50% (The max allowed)
+      
+  3)  The percentage also reflects the amount that the buffer will
+      be reduce by. (part of the crossfade process)  
+  
+  4)  To change the default percentage in this script, alter the 
+      [pct] variable found on line 36 of the script.
+  
+To do: 
+  
+  1)  Use actual ranges (start & end) to create a xfade anywhere in the sample.
+      This would allow the start of a sample to be untouched and offer sample sustain.
+  
+  2)  GUI interface for additional features.
+  
+  3)  Undo using the last sample slot.    
+   
