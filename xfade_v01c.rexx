@@ -35,7 +35,8 @@ _init:
                                                             
     if start<=0 then SIGNAL _routine                        /* check mode */
         else SIGNAL _user    
-                                                                                                                
+    exit
+ 
 _user:                                                      /* user mode */
     
     pct=TRUNC(((ulen/len)*100))                             /* convert range to % */
