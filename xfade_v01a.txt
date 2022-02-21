@@ -31,7 +31,7 @@ Notes:
       be reduce by. (part of the crossfade process)  
   
   4)  To change the default percentage in this script, alter the 
-      [pct] variable found on line 45 of the script.
+      [pct] variable found on line 44 of the script.
   
 To do: 
   
