@@ -43,8 +43,8 @@ _user:                                                      /* user mode */
                                                                           
 _routine:
 
-    d_len=TRUNC(((len*pct)/100))                            /* convert % to default range */           
-    dstart=(len-d_len)                                      /* calculate start point from end */
+    d_len=TRUNC(((len*pct)/100))                            /* convert % to range */           
+    dstart=(len-d_len)                                      /* calculate selection length */
                                 
     SA_RANGE dstart len                                     /* select buffer range */  
     SA_CHANGEVOL 100 0                                      /* fadeout (100 - 0) */
